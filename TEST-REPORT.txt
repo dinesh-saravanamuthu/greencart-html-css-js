@@ -1,0 +1,8 @@
+GreenCart static conversion checks
+
+- JavaScript syntax check: passed with Node.js `node --check`.
+- HTML entry point and relative stylesheet/script references: present.
+- Framework/backend runtime dependencies in delivered public folder: none.
+- ZIP integrity: verified after packaging.
+- Interactive browser test: not run in a real browser in this environment.
+- Note: app data and authentication are local demo behavior using localStorage; production-grade security and cross-device shared data require a backend.
